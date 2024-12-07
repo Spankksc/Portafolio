@@ -1,0 +1,211 @@
+
+body {
+    background-color: #2E1A47;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sidebar {
+    background-color: #5E3A7D; 
+    color: #F2C94C;
+    width: 250px;
+    height: 100vh; 
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-menu a {
+    font-family: Arial, sans-serif;
+    display: block;
+    text-decoration: none; 
+    color: #A569BD;
+    margin: 10px 0; 
+    font-size: 18px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: #D2B4DE; 
+}
+
+
+.main-content {
+    margin-left: 270px; 
+    padding: 20px;
+    color: white;
+}
+
+
+.hero {
+    padding: 100px 20px;
+    height: 100vh;
+    text-align: left;
+}
+
+.hero h1 {
+    color: #F2C94C;
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #7DB9D7; 
+}
+
+.cv-button {
+    background-color: #6CFF6C;
+    color: #2E1A47;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.portafolio {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+.portafolio h2 {
+    color: #FF7EDB;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.portafolio .proximamente {
+    font-size: 1.5rem;
+    color: #7DB9D7;  
+    text-align: center;
+}
+
+
+.sobre-mi {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+.sobre-mi h2 {
+    color: #FF7EDB;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre-mi p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #D8D8D8;
+    margin-bottom: 20px;
+}
+
+.sobre-mi .destacado {
+    color: #FF6E6E;
+    font-weight: bold;
+}
+
+
+.educacion {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+.educacion h2 {
+    color: #FF7EDB;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.educacion-item {
+    margin-bottom: 40px;
+}
+
+.educacion-item h3 {
+    color: #FF7EDB;
+    font-size: 1.5rem;
+}
+
+.centro {
+    color: #7DB9D7; 
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+.skills {
+    padding: 20px;
+    background-color: #2E1A47; 
+    border-radius: 8px; 
+}
+
+.skills h2 {
+    font-size: 2rem; 
+    text-decoration: underline; 
+    color: #FF7EDB;  
+}
+
+.skills ul {
+    list-style-type: square; 
+    margin-left: 20px;
+}
+
+.skills li {
+    font-size: 1.2rem; 
+    color: #FF7EDB;  
+}
+
+
+.contacto {
+    padding: 100px 20px;
+    height: 100vh;
+    background-color: #2E1A47; 
+    color: white; 
+    text-align: center; 
+}
+
+.contacto h2 {
+    color: #FF7EDB; 
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #D8D8D8; 
+}
+
+.contacto .email {
+    color: #7DB9D7;  
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.contacto .email:hover {
+    text-decoration: underline; 
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
